@@ -68,8 +68,18 @@ class InferenceClass:
 if __name__ == "__main__":
     url = os.getenv('TRITON_URL', default ='localhost:8001')
     model_name = os.getenv("YOLO_MODEL_NAME", default ="yolo11l")
+    input_file = os.getenv("INPUT_FILE", default ="test_data/traffic_video.mp4")
     inference_client = InferenceClass(url, model_name)
 
-    image = cv2.imread("examples/images/bus.jpg")
-    result = inference_client.infer(image)
-    print(result)
+    if input_file.endswith(".mp4"):
+        cap = cv2.VideoCapture(input_file)
+        while True:
+            ret, frame = cap.read()
+            if not ret:
+                break
+            result = inference_client.infer(frame)
+            print('output',result)
+    else:
+        image = cv2.imread(input_file)
+        result = inference_client.infer(image)
+        print('output',result)
