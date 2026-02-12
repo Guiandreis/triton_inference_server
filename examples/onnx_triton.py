@@ -28,7 +28,29 @@ class InferenceClass:
         
         if not self.client.is_model_ready(model_name):
             raise ConnectionError(f"Model '{model_name}' is not ready")
+
+    def _preprocess_image(self, image: np.ndarray) -> np.ndarray:
+        """
+        Preprocess a single image for inference.
+        
+        Args:
+            image: Input image as numpy array (BGR format from OpenCV)
             
+        Returns:
+            Preprocessed image as numpy array with shape [1, 3, 640, 640], FP32
+        """
+        # Resize to 640x640
+        resized = cv2.resize(image, (640, 640))
+        # Convert BGR to RGB
+        rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
+        # Normalize to [0, 1] and convert to FP32
+        normalized = rgb.astype(np.float32) / 255.0
+        # Transpose from HWC to CHW: [640, 640, 3] -> [3, 640, 640]
+        transposed = np.transpose(normalized, (2, 0, 1))
+        # Add batch dimension: [3, 640, 640] -> [1, 3, 640, 640]
+        batch_input = np.expand_dims(transposed, axis=0)
+        return batch_input    
+        
     def infer(self, image: np.ndarray) -> Dict[str, Any]:
         """
         Perform inference on an image.
@@ -82,4 +104,4 @@ if __name__ == "__main__":
     else:
         image = cv2.imread(input_file)
         result = inference_client.infer(image)
-        print('output',result)
+        print(result)
