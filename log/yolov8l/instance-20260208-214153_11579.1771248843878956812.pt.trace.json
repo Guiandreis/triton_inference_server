@@ -1,0 +1,2488 @@
+
+  {
+    "schemaVersion": 1,
+    "deviceProperties": [
+    ],
+      "record_shapes": 1,
+      "profile_memory": 1,
+      "with_stack": 1,
+      "trace_id": "B5D4141C2D96446A992CEB3103A65543",
+  "displayTimeUnit": "ms",
+  "baseTimeNanoseconds": 1767189312000000000,
+  "traceEvents": [
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#14", "pid": 11579, "tid": 11579,
+    "ts": 4059528897469.862, "dur": 2978754.671,
+    "args": {
+      "External id": 513,"Record function id": 0, "Ev Idx": 0
+    }
+  },
+  {
+    "ph": "X", "cat": "user_annotation", "name": "ProfilerStep#15", "pid": 11579, "tid": 11579,
+    "ts": 4059531876366.176, "dur": 139.725,
+    "args": {
+      "External id": 514,"Record function id": 0, "Ev Idx": 1
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch_profiler.py(66): <module>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897221.288, "dur": 2979344.094,
+    "args": {
+      "Python parent id": null, "Python id": 1, "Ev Idx": 2
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(882): step", "pid": 11579, "tid": 11579,
+    "ts": 4059528897223.441, "dur": 268.431,
+    "args": {
+      "Python parent id": 1, "Python id": 2, "Ev Idx": 3
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(916): _transit_action", "pid": 11579, "tid": 11579,
+    "ts": 4059528897226.323, "dur": 133.065,
+    "args": {
+      "Python parent id": 2, "Python id": 3, "Ev Idx": 4
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(229): start_trace", "pid": 11579, "tid": 11579,
+    "ts": 4059528897227.503, "dur": 130.813,
+    "args": {
+      "Python parent id": 3, "Python id": 4, "Ev Idx": 5
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(381): _start_trace", "pid": 11579, "tid": 11579,
+    "ts": 4059528897229.893, "dur": 51.613,
+    "args": {
+      "Python parent id": 4, "Python id": 5, "Ev Idx": 6
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function perf_counter_ns>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897271.921, "dur": 2.093,
+    "args": {
+      "Python parent id": 5, "Python id": 6, "Ev Idx": 7
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(378): add_metadata_json", "pid": 11579, "tid": 11579,
+    "ts": 4059528897287.851, "dur": 11.780,
+    "args": {
+      "Python parent id": 4, "Python id": 7, "Ev Idx": 8
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _add_metadata_json of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x718994d07b90>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897295.645, "dur": 3.770,
+    "args": {
+      "Python parent id": 7, "Python id": 8, "Ev Idx": 9
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(378): add_metadata_json", "pid": 11579, "tid": 11579,
+    "ts": 4059528897300.978, "dur": 1.898,
+    "args": {
+      "Python parent id": 4, "Python id": 9, "Ev Idx": 10
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _add_metadata_json of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x718994d07b90>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897302.196, "dur": 0.595,
+    "args": {
+      "Python parent id": 9, "Python id": 10, "Ev Idx": 11
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(378): add_metadata_json", "pid": 11579, "tid": 11579,
+    "ts": 4059528897304.079, "dur": 0.794,
+    "args": {
+      "Python parent id": 4, "Python id": 11, "Ev Idx": 12
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _add_metadata_json of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x718994d07b90>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897304.318, "dur": 0.506,
+    "args": {
+      "Python parent id": 11, "Python id": 12, "Ev Idx": 13
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method kineto_available of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x718994d07bd0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897310.710, "dur": 0.762,
+    "args": {
+      "Python parent id": 4, "Python id": 13, "Ev Idx": 14
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(393): _get_distributed_info", "pid": 11579, "tid": 11579,
+    "ts": 4059528897314.824, "dur": 24.166,
+    "args": {
+      "Python parent id": 4, "Python id": 14, "Ev Idx": 15
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/distributed/__init__.py(15): is_available", "pid": 11579, "tid": 11579,
+    "ts": 4059528897324.856, "dur": 6.128,
+    "args": {
+      "Python parent id": 14, "Python id": 15, "Ev Idx": 16
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hasattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897329.723, "dur": 1.036,
+    "args": {
+      "Python parent id": 15, "Python id": 16, "Ev Idx": 17
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/distributed/distributed_c10d.py(1310): is_initialized", "pid": 11579, "tid": 11579,
+    "ts": 4059528897333.334, "dur": 5.491,
+    "args": {
+      "Python parent id": 14, "Python id": 17, "Ev Idx": 18
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/distributed/distributed_c10d.py(735): WORLD", "pid": 11579, "tid": 11579,
+    "ts": 4059528897336.519, "dur": 2.130,
+    "args": {
+      "Python parent id": 17, "Python id": 18, "Ev Idx": 19
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/distributed/distributed_c10d.py(610): default_pg", "pid": 11579, "tid": 11579,
+    "ts": 4059528897338.046, "dur": 0.455,
+    "args": {
+      "Python parent id": 18, "Python id": 19, "Ev Idx": 20
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hasattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897341.656, "dur": 0.663,
+    "args": {
+      "Python parent id": 4, "Python id": 20, "Ev Idx": 21
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897349.055, "dur": 0.967,
+    "args": {
+      "Python parent id": 4, "Python id": 21, "Ev Idx": 22
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method items of dict object at 0x718981d51380>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897356.584, "dur": 0.496,
+    "args": {
+      "Python parent id": 4, "Python id": 22, "Ev Idx": 23
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen _collections_abc>(804): get", "pid": 11579, "tid": 11579,
+    "ts": 4059528897364.254, "dur": 22.958,
+    "args": {
+      "Python parent id": 2, "Python id": 23, "Ev Idx": 24
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen os>(709): __getitem__", "pid": 11579, "tid": 11579,
+    "ts": 4059528897366.857, "dur": 19.009,
+    "args": {
+      "Python parent id": 23, "Python id": 24, "Ev Idx": 25
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen os>(791): encode", "pid": 11579, "tid": 11579,
+    "ts": 4059528897369.803, "dur": 12.193,
+    "args": {
+      "Python parent id": 24, "Python id": 25, "Ev Idx": 26
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897374.125, "dur": 0.290,
+    "args": {
+      "Python parent id": 25, "Python id": 26, "Ev Idx": 27
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method encode of str object at 0x71898d8e75f0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897380.892, "dur": 0.905,
+    "args": {
+      "Python parent id": 25, "Python id": 27, "Ev Idx": 28
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_environment.py(1): is_fbcode", "pid": 11579, "tid": 11579,
+    "ts": 4059528897391.292, "dur": 0.147,
+    "args": {
+      "Python parent id": 2, "Python id": 28, "Ev Idx": 29
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(787): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528897395.937, "dur": 10.689,
+    "args": {
+      "Python parent id": 2, "Python id": 29, "Ev Idx": 30
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "typing.py(392): inner", "pid": 11579, "tid": 11579,
+    "ts": 4059528897400.224, "dur": 4.216,
+    "args": {
+      "Python parent id": 29, "Python id": 30, "Ev Idx": 31
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/jit/__init__.py(129): annotate", "pid": 11579, "tid": 11579,
+    "ts": 4059528897406.360, "dur": 0.113,
+    "args": {
+      "Python parent id": 29, "Python id": 31, "Ev Idx": 32
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(800): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059528897413.392, "dur": 78.193,
+    "args": {
+      "Python parent id": 2, "Python id": 32, "Ev Idx": 33
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1197): __call__", "pid": 11579, "tid": 11579,
+    "ts": 4059528897418.000, "dur": 73.008,
+    "args": {
+      "Python parent id": 32, "Python id": 33, "Ev Idx": 34
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _record_function_enter_new of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x71898db63b10>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897423.027, "dur": 67.805,
+    "args": {
+      "Python parent id": 33, "Python id": 34, "Ev Idx": 35
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "examples/onnx_triton.py(47): infer", "pid": 11579, "tid": 11579,
+    "ts": 4059528897496.910, "dur": 2978485.874,
+    "args": {
+      "Python parent id": 1, "Python id": 35, "Ev Idx": 36
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "examples/onnx_triton.py(30): _preprocess_image", "pid": 11579, "tid": 11579,
+    "ts": 4059528897498.956, "dur": 3282.539,
+    "args": {
+      "Python parent id": 35, "Python id": 36, "Ev Idx": 37
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function resize>", "pid": 11579, "tid": 11579,
+    "ts": 4059528897502.647, "dur": 997.204,
+    "args": {
+      "Python parent id": 36, "Python id": 37, "Ev Idx": 38
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function cvtColor>", "pid": 11579, "tid": 11579,
+    "ts": 4059528898517.829, "dur": 233.965,
+    "args": {
+      "Python parent id": 36, "Python id": 38, "Ev Idx": 39
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method astype of numpy.ndarray object at 0x71898cefa070>", "pid": 11579, "tid": 11579,
+    "ts": 4059528898782.404, "dur": 731.961,
+    "args": {
+      "Python parent id": 36, "Python id": 39, "Ev Idx": 40
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/fromnumeric.py(600): _transpose_dispatcher", "pid": 11579, "tid": 11579,
+    "ts": 4059528900636.770, "dur": 26.088,
+    "args": {
+      "Python parent id": 36, "Python id": 40, "Ev Idx": 41
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/fromnumeric.py(604): transpose", "pid": 11579, "tid": 11579,
+    "ts": 4059528900667.075, "dur": 28.270,
+    "args": {
+      "Python parent id": 36, "Python id": 41, "Ev Idx": 42
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/fromnumeric.py(48): _wrapfunc", "pid": 11579, "tid": 11579,
+    "ts": 4059528900672.697, "dur": 22.220,
+    "args": {
+      "Python parent id": 41, "Python id": 42, "Ev Idx": 43
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900674.574, "dur": 2.854,
+    "args": {
+      "Python parent id": 42, "Python id": 43, "Ev Idx": 44
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method transpose of numpy.ndarray object at 0x71898cefa190>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900690.080, "dur": 4.297,
+    "args": {
+      "Python parent id": 42, "Python id": 44, "Ev Idx": 45
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/lib/_shape_base_impl.py(511): _expand_dims_dispatcher", "pid": 11579, "tid": 11579,
+    "ts": 4059528900700.579, "dur": 0.113,
+    "args": {
+      "Python parent id": 36, "Python id": 45, "Ev Idx": 46
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/lib/_shape_base_impl.py(515): expand_dims", "pid": 11579, "tid": 11579,
+    "ts": 4059528900704.338, "dur": 76.089,
+    "args": {
+      "Python parent id": 36, "Python id": 46, "Ev Idx": 47
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900705.697, "dur": 1.511,
+    "args": {
+      "Python parent id": 46, "Python id": 47, "Ev Idx": 48
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function asanyarray>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900720.742, "dur": 0.692,
+    "args": {
+      "Python parent id": 46, "Python id": 48, "Ev Idx": 49
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900722.303, "dur": 0.617,
+    "args": {
+      "Python parent id": 46, "Python id": 49, "Ev Idx": 50
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900728.778, "dur": 0.648,
+    "args": {
+      "Python parent id": 46, "Python id": 50, "Ev Idx": 51
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/numeric.py(1431): normalize_axis_tuple", "pid": 11579, "tid": 11579,
+    "ts": 4059528900734.705, "dur": 18.330,
+    "args": {
+      "Python parent id": 46, "Python id": 51, "Ev Idx": 52
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900735.747, "dur": 0.132,
+    "args": {
+      "Python parent id": 51, "Python id": 52, "Ev Idx": 53
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/numeric.py(1480): <genexpr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900742.855, "dur": 3.394,
+    "args": {
+      "Python parent id": 51, "Python id": 53, "Ev Idx": 54
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function normalize_axis_index>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900744.734, "dur": 1.084,
+    "args": {
+      "Python parent id": 53, "Python id": 54, "Ev Idx": 55
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "numpy/_core/numeric.py(1480): <genexpr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900747.148, "dur": 0.341,
+    "args": {
+      "Python parent id": 51, "Python id": 55, "Ev Idx": 56
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900751.313, "dur": 0.475,
+    "args": {
+      "Python parent id": 51, "Python id": 56, "Ev Idx": 57
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900752.712, "dur": 0.078,
+    "args": {
+      "Python parent id": 51, "Python id": 57, "Ev Idx": 58
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function iter>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900758.438, "dur": 0.275,
+    "args": {
+      "Python parent id": 46, "Python id": 58, "Ev Idx": 59
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900763.763, "dur": 0.728,
+    "args": {
+      "Python parent id": 46, "Python id": 59, "Ev Idx": 60
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900765.192, "dur": 0.158,
+    "args": {
+      "Python parent id": 46, "Python id": 60, "Ev Idx": 61
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900765.771, "dur": 0.078,
+    "args": {
+      "Python parent id": 46, "Python id": 61, "Ev Idx": 62
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method reshape of numpy.ndarray object at 0x71898cefa0d0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900768.322, "dur": 11.876,
+    "args": {
+      "Python parent id": 46, "Python id": 62, "Ev Idx": 63
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_input.py(51): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528900790.568, "dur": 30.219,
+    "args": {
+      "Python parent id": 35, "Python id": 63, "Ev Idx": 64
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method ClearField of InferInputTensor object at 0x71896543ae80>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900810.600, "dur": 0.922,
+    "args": {
+      "Python parent id": 63, "Python id": 64, "Ev Idx": 65
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method extend of google._upb._message.RepeatedScalarContainer object at 0x71898d1c7ba0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900816.972, "dur": 2.196,
+    "args": {
+      "Python parent id": 63, "Python id": 65, "Ev Idx": 66
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_input.py(106): set_data_from_numpy", "pid": 11579, "tid": 11579,
+    "ts": 4059528900829.167, "dur": 1222.377,
+    "args": {
+      "Python parent id": 35, "Python id": 66, "Ev Idx": 67
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900830.190, "dur": 0.247,
+    "args": {
+      "Python parent id": 66, "Python id": 67, "Ev Idx": 68
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/utils/__init__.py(133): np_to_triton_dtype", "pid": 11579, "tid": 11579,
+    "ts": 4059528900836.354, "dur": 13.305,
+    "args": {
+      "Python parent id": 66, "Python id": 68, "Ev Idx": 69
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900851.648, "dur": 0.325,
+    "args": {
+      "Python parent id": 66, "Python id": 69, "Ev Idx": 70
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900853.094, "dur": 0.151,
+    "args": {
+      "Python parent id": 66, "Python id": 70, "Ev Idx": 71
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900854.626, "dur": 0.113,
+    "args": {
+      "Python parent id": 66, "Python id": 71, "Ev Idx": 72
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen _collections_abc>(940): pop", "pid": 11579, "tid": 11579,
+    "ts": 4059528900867.162, "dur": 1.889,
+    "args": {
+      "Python parent id": 66, "Python id": 72, "Ev Idx": 73
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen _collections_abc>(940): pop", "pid": 11579, "tid": 11579,
+    "ts": 4059528900871.570, "dur": 0.599,
+    "args": {
+      "Python parent id": 66, "Python id": 73, "Ev Idx": 74
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen _collections_abc>(940): pop", "pid": 11579, "tid": 11579,
+    "ts": 4059528900873.738, "dur": 0.755,
+    "args": {
+      "Python parent id": 66, "Python id": 74, "Ev Idx": 75
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method tobytes of numpy.ndarray object at 0x71898cef9bf0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528900879.953, "dur": 1169.876,
+    "args": {
+      "Python parent id": 66, "Python id": 75, "Ev Idx": 76
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_requested_output.py(47): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528902061.727, "dur": 12.028,
+    "args": {
+      "Python parent id": 35, "Python id": 76, "Ev Idx": 77
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_client.py(1445): infer", "pid": 11579, "tid": 11579,
+    "ts": 4059528902079.823, "dur": 2971742.739,
+    "args": {
+      "Python parent id": 35, "Python id": 77, "Ev Idx": 78
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_client.py(241): _get_metadata", "pid": 11579, "tid": 11579,
+    "ts": 4059528902082.302, "dur": 8.525,
+    "args": {
+      "Python parent id": 77, "Python id": 78, "Ev Idx": 79
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/_request.py(38): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528902085.692, "dur": 0.449,
+    "args": {
+      "Python parent id": 78, "Python id": 79, "Ev Idx": 80
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/_client.py(35): _call_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059528902087.878, "dur": 0.745,
+    "args": {
+      "Python parent id": 78, "Python id": 80, "Ev Idx": 81
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method items of dict object at 0x718981d51380>", "pid": 11579, "tid": 11579,
+    "ts": 4059528902089.856, "dur": 0.826,
+    "args": {
+      "Python parent id": 78, "Python id": 81, "Ev Idx": 82
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_utils.py(80): _get_inference_request", "pid": 11579, "tid": 11579,
+    "ts": 4059528902100.355, "dur": 3771.421,
+    "args": {
+      "Python parent id": 77, "Python id": 82, "Ev Idx": 83
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_input.py(203): _get_tensor", "pid": 11579, "tid": 11579,
+    "ts": 4059528902108.341, "dur": 0.193,
+    "args": {
+      "Python parent id": 82, "Python id": 83, "Ev Idx": 84
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method extend of google._upb._message.RepeatedCompositeContainer object at 0x718965424f30>", "pid": 11579, "tid": 11579,
+    "ts": 4059528902120.820, "dur": 8.897,
+    "args": {
+      "Python parent id": 82, "Python id": 84, "Ev Idx": 85
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_input.py(212): _get_content", "pid": 11579, "tid": 11579,
+    "ts": 4059528902131.642, "dur": 0.063,
+    "args": {
+      "Python parent id": 82, "Python id": 85, "Ev Idx": 86
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_input.py(212): _get_content", "pid": 11579, "tid": 11579,
+    "ts": 4059528902134.518, "dur": 0.135,
+    "args": {
+      "Python parent id": 82, "Python id": 86, "Ev Idx": 87
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method extend of google._upb._message.RepeatedScalarContainer object at 0x71898d1c7ba0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528902135.512, "dur": 3699.317,
+    "args": {
+      "Python parent id": 82, "Python id": 87, "Ev Idx": 88
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_requested_output.py(101): _get_tensor", "pid": 11579, "tid": 11579,
+    "ts": 4059528905856.889, "dur": 2.501,
+    "args": {
+      "Python parent id": 82, "Python id": 88, "Ev Idx": 89
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method extend of google._upb._message.RepeatedCompositeContainer object at 0x718965424f30>", "pid": 11579, "tid": 11579,
+    "ts": 4059528905861.558, "dur": 9.198,
+    "args": {
+      "Python parent id": 82, "Python id": 89, "Ev Idx": 90
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_utils.py(146): _grpc_compression_type", "pid": 11579, "tid": 11579,
+    "ts": 4059528905878.611, "dur": 3.384,
+    "args": {
+      "Python parent id": 77, "Python id": 90, "Ev Idx": 91
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1166): __call__", "pid": 11579, "tid": 11579,
+    "ts": 4059528905890.171, "dur": 2967912.509,
+    "args": {
+      "Python parent id": 77, "Python id": 91, "Ev Idx": 92
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1128): _blocking", "pid": 11579, "tid": 11579,
+    "ts": 4059528905894.067, "dur": 2967895.182,
+    "args": {
+      "Python parent id": 91, "Python id": 92, "Ev Idx": 93
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1090): _prepare", "pid": 11579, "tid": 11579,
+    "ts": 4059528905896.731, "dur": 7778.830,
+    "args": {
+      "Python parent id": 92, "Python id": 93, "Ev Idx": 94
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(972): _start_unary_request", "pid": 11579, "tid": 11579,
+    "ts": 4059528905899.939, "dur": 7662.982,
+    "args": {
+      "Python parent id": 93, "Python id": 94, "Ev Idx": 95
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(109): _deadline", "pid": 11579, "tid": 11579,
+    "ts": 4059528905901.601, "dur": 0.224,
+    "args": {
+      "Python parent id": 94, "Python id": 95, "Ev Idx": 96
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(95): serialize", "pid": 11579, "tid": 11579,
+    "ts": 4059528905917.173, "dur": 7644.068,
+    "args": {
+      "Python parent id": 94, "Python id": 96, "Ev Idx": 97
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(80): _transform", "pid": 11579, "tid": 11579,
+    "ts": 4059528905919.439, "dur": 7640.280,
+    "args": {
+      "Python parent id": 96, "Python id": 97, "Ev Idx": 98
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method SerializeToString of ModelInferRequest object at 0x71896543ac50>", "pid": 11579, "tid": 11579,
+    "ts": 4059528905945.220, "dur": 7613.022,
+    "args": {
+      "Python parent id": 97, "Python id": 98, "Ev Idx": 99
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1704): __new__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913578.854, "dur": 28.293,
+    "args": {
+      "Python parent id": 93, "Python id": 99, "Ev Idx": 100
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __new__ of type object at 0x1407a50>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913605.677, "dur": 1.343,
+    "args": {
+      "Python parent id": 99, "Python id": 100, "Ev Idx": 101
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1708): with_wait_for_ready", "pid": 11579, "tid": 11579,
+    "ts": 4059528913610.823, "dur": 0.391,
+    "args": {
+      "Python parent id": 93, "Python id": 101, "Ev Idx": 102
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_compression.py(55): augment_metadata", "pid": 11579, "tid": 11579,
+    "ts": 4059528913614.964, "dur": 2.007,
+    "args": {
+      "Python parent id": 93, "Python id": 102, "Ev Idx": 103
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(138): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913622.647, "dur": 45.140,
+    "args": {
+      "Python parent id": 93, "Python id": 103, "Ev Idx": 104
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(277): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913627.471, "dur": 31.228,
+    "args": {
+      "Python parent id": 103, "Python id": 104, "Ev Idx": 105
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(124): RLock", "pid": 11579, "tid": 11579,
+    "ts": 4059528913630.174, "dur": 2.461,
+    "args": {
+      "Python parent id": 104, "Python id": 105, "Ev Idx": 106
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hasattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913635.531, "dur": 1.432,
+    "args": {
+      "Python parent id": 104, "Python id": 106, "Ev Idx": 107
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hasattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913654.390, "dur": 0.341,
+    "args": {
+      "Python parent id": 104, "Python id": 107, "Ev Idx": 108
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hasattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913655.814, "dur": 0.306,
+    "args": {
+      "Python parent id": 104, "Python id": 108, "Ev Idx": 109
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function perf_counter>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913680.737, "dur": 2.250,
+    "args": {
+      "Python parent id": 92, "Python id": 109, "Ev Idx": 110
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(74): decode", "pid": 11579, "tid": 11579,
+    "ts": 4059528913686.443, "dur": 9.548,
+    "args": {
+      "Python parent id": 92, "Python id": 110, "Ev Idx": 111
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913687.283, "dur": 0.526,
+    "args": {
+      "Python parent id": 110, "Python id": 111, "Ev Idx": 112
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method decode of bytes object at 0x718981d93730>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913694.503, "dur": 1.341,
+    "args": {
+      "Python parent id": 110, "Python id": 112, "Ev Idx": 113
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(74): decode", "pid": 11579, "tid": 11579,
+    "ts": 4059528913697.434, "dur": 1.221,
+    "args": {
+      "Python parent id": 92, "Python id": 113, "Ev Idx": 114
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913697.749, "dur": 0.129,
+    "args": {
+      "Python parent id": 113, "Python id": 114, "Ev Idx": 115
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method decode of bytes object at 0x718981d93730>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913698.097, "dur": 0.495,
+    "args": {
+      "Python parent id": 113, "Python id": 115, "Ev Idx": 116
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(1038): _determine_deadline", "pid": 11579, "tid": 11579,
+    "ts": 4059528913702.140, "dur": 0.936,
+    "args": {
+      "Python parent id": 92, "Python id": 116, "Ev Idx": 117
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(299): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913721.149, "dur": 5.025,
+    "args": {
+      "Python parent id": 92, "Python id": 117, "Ev Idx": 118
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __enter__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913723.740, "dur": 2.308,
+    "args": {
+      "Python parent id": 117, "Python id": 118, "Ev Idx": 119
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(302): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913735.449, "dur": 3.056,
+    "args": {
+      "Python parent id": 92, "Python id": 119, "Ev Idx": 120
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913737.812, "dur": 0.569,
+    "args": {
+      "Python parent id": 119, "Python id": 120, "Ev Idx": 121
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(299): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913740.177, "dur": 0.630,
+    "args": {
+      "Python parent id": 92, "Python id": 121, "Ev Idx": 122
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __enter__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913740.463, "dur": 0.267,
+    "args": {
+      "Python parent id": 121, "Python id": 122, "Ev Idx": 123
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(299): helper", "pid": 11579, "tid": 11579,
+    "ts": 4059528913760.818, "dur": 8.809,
+    "args": {
+      "Python parent id": 92, "Python id": 123, "Ev Idx": 124
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(104): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913764.555, "dur": 4.712,
+    "args": {
+      "Python parent id": 123, "Python id": 124, "Ev Idx": 125
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913767.139, "dur": 0.883,
+    "args": {
+      "Python parent id": 124, "Python id": 125, "Ev Idx": 126
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(132): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913779.337, "dur": 5.393,
+    "args": {
+      "Python parent id": 92, "Python id": 126, "Ev Idx": 127
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913781.501, "dur": 3.173,
+    "args": {
+      "Python parent id": 126, "Python id": 127, "Ev Idx": 128
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(206): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059528913783.224, "dur": 1.188,
+    "args": {
+      "Python parent id": 127, "Python id": 128, "Ev Idx": 129
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(141): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913788.658, "dur": 6.222,
+    "args": {
+      "Python parent id": 92, "Python id": 129, "Ev Idx": 130
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913789.254, "dur": 3.337,
+    "args": {
+      "Python parent id": 129, "Python id": 130, "Ev Idx": 131
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(215): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059528913789.964, "dur": 1.090,
+    "args": {
+      "Python parent id": 130, "Python id": 131, "Ev Idx": 132
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913790.496, "dur": 0.288,
+    "args": {
+      "Python parent id": 131, "Python id": 132, "Ev Idx": 133
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(299): helper", "pid": 11579, "tid": 11579,
+    "ts": 4059528913804.395, "dur": 1.943,
+    "args": {
+      "Python parent id": 92, "Python id": 133, "Ev Idx": 134
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(104): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913805.051, "dur": 1.098,
+    "args": {
+      "Python parent id": 133, "Python id": 134, "Ev Idx": 135
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913805.775, "dur": 0.164,
+    "args": {
+      "Python parent id": 134, "Python id": 135, "Ev Idx": 136
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(132): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913807.430, "dur": 1.557,
+    "args": {
+      "Python parent id": 92, "Python id": 136, "Ev Idx": 137
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913807.922, "dur": 1.023,
+    "args": {
+      "Python parent id": 136, "Python id": 137, "Ev Idx": 138
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(206): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059528913808.460, "dur": 0.357,
+    "args": {
+      "Python parent id": 137, "Python id": 138, "Ev Idx": 139
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(141): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059528913810.306, "dur": 1.847,
+    "args": {
+      "Python parent id": 92, "Python id": 139, "Ev Idx": 140
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913810.620, "dur": 1.287,
+    "args": {
+      "Python parent id": 139, "Python id": 140, "Ev Idx": 141
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(215): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059528913810.976, "dur": 0.620,
+    "args": {
+      "Python parent id": 140, "Python id": 141, "Ev Idx": 142
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528913811.271, "dur": 0.224,
+    "args": {
+      "Python parent id": 141, "Python id": 142, "Ev Idx": 143
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(302): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059528919735.743, "dur": 12.706,
+    "args": {
+      "Python parent id": 92, "Python id": 143, "Ev Idx": 144
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059528919745.123, "dur": 2.418,
+    "args": {
+      "Python parent id": 143, "Python id": 144, "Ev Idx": 145
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(299): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873474.106, "dur": 13.133,
+    "args": {
+      "Python parent id": 92, "Python id": 145, "Ev Idx": 146
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __enter__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873481.681, "dur": 4.833,
+    "args": {
+      "Python parent id": 145, "Python id": 146, "Ev Idx": 147
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(424): notify_all", "pid": 11579, "tid": 11579,
+    "ts": 4059531873529.761, "dur": 41.539,
+    "args": {
+      "Python parent id": 92, "Python id": 147, "Ev Idx": 148
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873532.263, "dur": 1.805,
+    "args": {
+      "Python parent id": 147, "Python id": 148, "Ev Idx": 149
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(394): notify", "pid": 11579, "tid": 11579,
+    "ts": 4059531873548.139, "dur": 22.478,
+    "args": {
+      "Python parent id": 147, "Python id": 149, "Ev Idx": 150
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _is_owned of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873567.905, "dur": 1.128,
+    "args": {
+      "Python parent id": 149, "Python id": 150, "Ev Idx": 151
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "threading.py(302): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873575.037, "dur": 3.578,
+    "args": {
+      "Python parent id": 92, "Python id": 151, "Ev Idx": 152
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873577.105, "dur": 1.229,
+    "args": {
+      "Python parent id": 151, "Python id": 152, "Ev Idx": 153
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(191): _handle_event", "pid": 11579, "tid": 11579,
+    "ts": 4059531873591.633, "dur": 196.558,
+    "args": {
+      "Python parent id": 92, "Python id": 153, "Ev Idx": 154
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873604.053, "dur": 2.568,
+    "args": {
+      "Python parent id": 153, "Python id": 154, "Ev Idx": 155
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873610.358, "dur": 0.274,
+    "args": {
+      "Python parent id": 153, "Python id": 155, "Ev Idx": 156
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873611.959, "dur": 0.242,
+    "args": {
+      "Python parent id": 153, "Python id": 156, "Ev Idx": 157
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873613.580, "dur": 0.208,
+    "args": {
+      "Python parent id": 153, "Python id": 157, "Ev Idx": 158
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873616.064, "dur": 0.246,
+    "args": {
+      "Python parent id": 153, "Python id": 158, "Ev Idx": 159
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(99): deserialize", "pid": 11579, "tid": 11579,
+    "ts": 4059531873635.503, "dur": 56.791,
+    "args": {
+      "Python parent id": 153, "Python id": 159, "Ev Idx": 160
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_common.py(80): _transform", "pid": 11579, "tid": 11579,
+    "ts": 4059531873638.521, "dur": 53.419,
+    "args": {
+      "Python parent id": 159, "Python id": 160, "Ev Idx": 161
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method FromString of google._upb._message.MessageMeta object at 0x1cb6eea0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873673.294, "dur": 18.471,
+    "args": {
+      "Python parent id": 160, "Python id": 161, "Ev Idx": 162
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method remove of set object at 0x718981d735a0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873694.303, "dur": 0.371,
+    "args": {
+      "Python parent id": 153, "Python id": 162, "Ev Idx": 163
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method get of dict object at 0x71898c5ea100>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873707.732, "dur": 1.236,
+    "args": {
+      "Python parent id": 153, "Python id": 163, "Ev Idx": 164
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function perf_counter>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873714.334, "dur": 1.565,
+    "args": {
+      "Python parent id": 153, "Python id": 164, "Ev Idx": 165
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(262): maybe_record_rpc_latency", "pid": 11579, "tid": 11579,
+    "ts": 4059531873723.132, "dur": 55.684,
+    "args": {
+      "Python parent id": 153, "Python id": 165, "Ev Idx": 166
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method encode of str object at 0x71898d8e75f0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873726.021, "dur": 1.736,
+    "args": {
+      "Python parent id": 165, "Python id": 166, "Ev Idx": 167
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method encode of str object at 0x71898d8e75f0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873734.159, "dur": 0.340,
+    "args": {
+      "Python parent id": 165, "Python id": 167, "Ev Idx": 168
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(299): helper", "pid": 11579, "tid": 11579,
+    "ts": 4059531873739.861, "dur": 15.678,
+    "args": {
+      "Python parent id": 165, "Python id": 168, "Ev Idx": 169
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(104): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873746.269, "dur": 8.212,
+    "args": {
+      "Python parent id": 168, "Python id": 169, "Ev Idx": 170
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873750.867, "dur": 1.900,
+    "args": {
+      "Python parent id": 169, "Python id": 170, "Ev Idx": 171
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(132): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873758.519, "dur": 7.782,
+    "args": {
+      "Python parent id": 165, "Python id": 171, "Ev Idx": 172
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873761.141, "dur": 4.997,
+    "args": {
+      "Python parent id": 171, "Python id": 172, "Ev Idx": 173
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(206): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059531873762.917, "dur": 2.861,
+    "args": {
+      "Python parent id": 172, "Python id": 173, "Ev Idx": 174
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "contextlib.py(141): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873769.120, "dur": 7.659,
+    "args": {
+      "Python parent id": 165, "Python id": 174, "Ev Idx": 175
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function next>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873769.880, "dur": 4.339,
+    "args": {
+      "Python parent id": 174, "Python id": 175, "Ev Idx": 176
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_observability.py(215): get_plugin", "pid": 11579, "tid": 11579,
+    "ts": 4059531873771.071, "dur": 1.539,
+    "args": {
+      "Python parent id": 175, "Python id": 176, "Ev Idx": 177
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of _thread.RLock object at 0x71898c6018c0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873771.710, "dur": 0.531,
+    "args": {
+      "Python parent id": 176, "Python id": 177, "Ev Idx": 178
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method extend of list object at 0x71898ce99b40>", "pid": 11579, "tid": 11579,
+    "ts": 4059531873786.260, "dur": 0.665,
+    "args": {
+      "Python parent id": 153, "Python id": 178, "Ev Idx": 179
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "grpc/_channel.py(993): _end_unary_response_blocking", "pid": 11579, "tid": 11579,
+    "ts": 4059531873799.857, "dur": 2.602,
+    "args": {
+      "Python parent id": 91, "Python id": 179, "Ev Idx": 180
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_result.py(45): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059531873821.428, "dur": 0.541,
+    "args": {
+      "Python parent id": 77, "Python id": 180, "Ev Idx": 181
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/grpc/_infer_result.py(48): as_numpy", "pid": 11579, "tid": 11579,
+    "ts": 4059531875867.051, "dur": 111.064,
+    "args": {
+      "Python parent id": 35, "Python id": 181, "Ev Idx": 182
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method append of list object at 0x718965420b00>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875908.334, "dur": 1.184,
+    "args": {
+      "Python parent id": 181, "Python id": 182, "Ev Idx": 183
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method append of list object at 0x718965420b00>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875911.393, "dur": 0.213,
+    "args": {
+      "Python parent id": 181, "Python id": 183, "Ev Idx": 184
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method append of list object at 0x718965420b00>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875912.442, "dur": 0.212,
+    "args": {
+      "Python parent id": 181, "Python id": 184, "Ev Idx": 185
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function len>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875925.044, "dur": 0.975,
+    "args": {
+      "Python parent id": 181, "Python id": 185, "Ev Idx": 186
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "tritonclient/utils/__init__.py(163): triton_to_np_dtype", "pid": 11579, "tid": 11579,
+    "ts": 4059531875940.176, "dur": 4.323,
+    "args": {
+      "Python parent id": 181, "Python id": 186, "Ev Idx": 187
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function frombuffer>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875949.572, "dur": 17.207,
+    "args": {
+      "Python parent id": 181, "Python id": 187, "Ev Idx": 188
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method reshape of numpy.ndarray object at 0x71898cefa0d0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531875969.385, "dur": 7.525,
+    "args": {
+      "Python parent id": 181, "Python id": 188, "Ev Idx": 189
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(872): step", "pid": 11579, "tid": 11579,
+    "ts": 4059531876006.182, "dur": 393.311,
+    "args": {
+      "Python parent id": 1, "Python id": 189, "Ev Idx": 190
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(806): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876012.460, "dur": 231.835,
+    "args": {
+      "Python parent id": 189, "Python id": 190, "Ev Idx": 191
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_jit_internal.py(98): is_scripting", "pid": 11579, "tid": 11579,
+    "ts": 4059531876019.938, "dur": 0.431,
+    "args": {
+      "Python parent id": 190, "Python id": 191, "Ev Idx": 192
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1031): __call__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876043.135, "dur": 192.803,
+    "args": {
+      "Python parent id": 190, "Python id": 192, "Ev Idx": 193
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1081): _must_dispatch_in_python", "pid": 11579, "tid": 11579,
+    "ts": 4059531876047.249, "dur": 123.282,
+    "args": {
+      "Python parent id": 192, "Python id": 193, "Ev Idx": 194
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1784): tree_any", "pid": 11579, "tid": 11579,
+    "ts": 4059531876054.820, "dur": 114.909,
+    "args": {
+      "Python parent id": 193, "Python id": 194, "Ev Idx": 195
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function any>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876063.084, "dur": 106.184,
+    "args": {
+      "Python parent id": 194, "Python id": 195, "Ev Idx": 196
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876066.556, "dur": 63.506,
+    "args": {
+      "Python parent id": 195, "Python id": 196, "Ev Idx": 197
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876069.840, "dur": 26.628,
+    "args": {
+      "Python parent id": 196, "Python id": 197, "Ev Idx": 198
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876072.601, "dur": 22.080,
+    "args": {
+      "Python parent id": 197, "Python id": 198, "Ev Idx": 199
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876076.567, "dur": 17.698,
+    "args": {
+      "Python parent id": 198, "Python id": 199, "Ev Idx": 200
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876077.393, "dur": 0.744,
+    "args": {
+      "Python parent id": 199, "Python id": 200, "Ev Idx": 201
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876081.343, "dur": 0.367,
+    "args": {
+      "Python parent id": 199, "Python id": 201, "Ev Idx": 202
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876090.533, "dur": 1.275,
+    "args": {
+      "Python parent id": 199, "Python id": 202, "Ev Idx": 203
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876092.561, "dur": 1.439,
+    "args": {
+      "Python parent id": 199, "Python id": 203, "Ev Idx": 204
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876097.829, "dur": 3.673,
+    "args": {
+      "Python parent id": 196, "Python id": 204, "Ev Idx": 205
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876098.829, "dur": 2.446,
+    "args": {
+      "Python parent id": 204, "Python id": 205, "Ev Idx": 206
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876099.152, "dur": 0.169,
+    "args": {
+      "Python parent id": 205, "Python id": 206, "Ev Idx": 207
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876099.693, "dur": 0.155,
+    "args": {
+      "Python parent id": 205, "Python id": 207, "Ev Idx": 208
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876100.279, "dur": 0.140,
+    "args": {
+      "Python parent id": 205, "Python id": 208, "Ev Idx": 209
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876100.867, "dur": 0.295,
+    "args": {
+      "Python parent id": 205, "Python id": 209, "Ev Idx": 210
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(771): _tuple_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876106.672, "dur": 1.355,
+    "args": {
+      "Python parent id": 196, "Python id": 210, "Ev Idx": 211
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876111.147, "dur": 18.496,
+    "args": {
+      "Python parent id": 196, "Python id": 211, "Ev Idx": 212
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876112.286, "dur": 5.006,
+    "args": {
+      "Python parent id": 211, "Python id": 212, "Ev Idx": 213
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876113.119, "dur": 3.954,
+    "args": {
+      "Python parent id": 212, "Python id": 213, "Ev Idx": 214
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876113.970, "dur": 2.876,
+    "args": {
+      "Python parent id": 213, "Python id": 214, "Ev Idx": 215
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876114.355, "dur": 0.189,
+    "args": {
+      "Python parent id": 214, "Python id": 215, "Ev Idx": 216
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876114.937, "dur": 0.143,
+    "args": {
+      "Python parent id": 214, "Python id": 216, "Ev Idx": 217
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876115.516, "dur": 0.178,
+    "args": {
+      "Python parent id": 214, "Python id": 217, "Ev Idx": 218
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876116.124, "dur": 0.581,
+    "args": {
+      "Python parent id": 214, "Python id": 218, "Ev Idx": 219
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876118.037, "dur": 3.201,
+    "args": {
+      "Python parent id": 211, "Python id": 219, "Ev Idx": 220
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876118.840, "dur": 2.224,
+    "args": {
+      "Python parent id": 219, "Python id": 220, "Ev Idx": 221
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876119.162, "dur": 0.138,
+    "args": {
+      "Python parent id": 220, "Python id": 221, "Ev Idx": 222
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876119.654, "dur": 0.161,
+    "args": {
+      "Python parent id": 220, "Python id": 222, "Ev Idx": 223
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876120.201, "dur": 0.162,
+    "args": {
+      "Python parent id": 220, "Python id": 223, "Ev Idx": 224
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876120.801, "dur": 0.163,
+    "args": {
+      "Python parent id": 220, "Python id": 224, "Ev Idx": 225
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(771): _tuple_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876122.222, "dur": 0.490,
+    "args": {
+      "Python parent id": 211, "Python id": 225, "Ev Idx": 226
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876124.077, "dur": 5.397,
+    "args": {
+      "Python parent id": 211, "Python id": 226, "Ev Idx": 227
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876124.700, "dur": 4.419,
+    "args": {
+      "Python parent id": 226, "Python id": 227, "Ev Idx": 228
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876125.246, "dur": 3.557,
+    "args": {
+      "Python parent id": 227, "Python id": 228, "Ev Idx": 229
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876126.177, "dur": 2.356,
+    "args": {
+      "Python parent id": 228, "Python id": 229, "Ev Idx": 230
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876126.495, "dur": 0.802,
+    "args": {
+      "Python parent id": 229, "Python id": 230, "Ev Idx": 231
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876127.738, "dur": 0.633,
+    "args": {
+      "Python parent id": 229, "Python id": 231, "Ev Idx": 232
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1083): <lambda>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876131.498, "dur": 4.497,
+    "args": {
+      "Python parent id": 195, "Python id": 232, "Ev Idx": 233
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876134.603, "dur": 1.259,
+    "args": {
+      "Python parent id": 232, "Python id": 233, "Ev Idx": 234
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1476): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876137.298, "dur": 31.367,
+    "args": {
+      "Python parent id": 195, "Python id": 234, "Ev Idx": 235
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1476): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876138.809, "dur": 2.246,
+    "args": {
+      "Python parent id": 234, "Python id": 235, "Ev Idx": 236
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1468): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876139.785, "dur": 0.209,
+    "args": {
+      "Python parent id": 235, "Python id": 236, "Ev Idx": 237
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876142.568, "dur": 25.735,
+    "args": {
+      "Python parent id": 234, "Python id": 237, "Ev Idx": 238
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876143.089, "dur": 3.396,
+    "args": {
+      "Python parent id": 237, "Python id": 238, "Ev Idx": 239
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876143.637, "dur": 2.573,
+    "args": {
+      "Python parent id": 238, "Python id": 239, "Ev Idx": 240
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876144.414, "dur": 1.319,
+    "args": {
+      "Python parent id": 239, "Python id": 240, "Ev Idx": 241
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876144.732, "dur": 0.123,
+    "args": {
+      "Python parent id": 240, "Python id": 241, "Ev Idx": 242
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876145.110, "dur": 0.504,
+    "args": {
+      "Python parent id": 240, "Python id": 242, "Ev Idx": 243
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876147.119, "dur": 1.983,
+    "args": {
+      "Python parent id": 237, "Python id": 243, "Ev Idx": 244
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876147.833, "dur": 1.105,
+    "args": {
+      "Python parent id": 243, "Python id": 244, "Ev Idx": 245
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876148.143, "dur": 0.114,
+    "args": {
+      "Python parent id": 244, "Python id": 245, "Ev Idx": 246
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876148.615, "dur": 0.165,
+    "args": {
+      "Python parent id": 244, "Python id": 246, "Ev Idx": 247
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(801): _dict_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876152.195, "dur": 15.598,
+    "args": {
+      "Python parent id": 237, "Python id": 247, "Ev Idx": 248
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method values of dict object at 0x71898c625300>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876157.960, "dur": 1.083,
+    "args": {
+      "Python parent id": 247, "Python id": 248, "Ev Idx": 249
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method keys of dict object at 0x71898c625300>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876165.471, "dur": 0.494,
+    "args": {
+      "Python parent id": 247, "Python id": 249, "Ev Idx": 250
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method  of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x71898d7bbe50>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876177.400, "dur": 58.195,
+    "args": {
+      "Python parent id": 192, "Python id": 250, "Ev Idx": 251
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of torch._C.DisableTorchFunctionSubclass object at 0x718982a63f10>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876243.159, "dur": 0.551,
+    "args": {
+      "Python parent id": 190, "Python id": 251, "Ev Idx": 252
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(518): schedule_fn", "pid": 11579, "tid": 11579,
+    "ts": 4059531876250.498, "dur": 3.316,
+    "args": {
+      "Python parent id": 189, "Python id": 252, "Ev Idx": 253
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(912): _transit_action", "pid": 11579, "tid": 11579,
+    "ts": 4059531876257.247, "dur": 13.928,
+    "args": {
+      "Python parent id": 189, "Python id": 253, "Ev Idx": 254
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method get of dict object at 0x71898c5ea100>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876258.405, "dur": 11.638,
+    "args": {
+      "Python parent id": 253, "Python id": 254, "Ev Idx": 255
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "enum.py(1266): __hash__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876261.503, "dur": 4.834,
+    "args": {
+      "Python parent id": 254, "Python id": 255, "Ev Idx": 256
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hash>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876265.745, "dur": 0.452,
+    "args": {
+      "Python parent id": 255, "Python id": 256, "Ev Idx": 257
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "enum.py(1266): __hash__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876267.390, "dur": 0.739,
+    "args": {
+      "Python parent id": 254, "Python id": 257, "Ev Idx": 258
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hash>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876267.840, "dur": 0.204,
+    "args": {
+      "Python parent id": 257, "Python id": 258, "Ev Idx": 259
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen _collections_abc>(804): get", "pid": 11579, "tid": 11579,
+    "ts": 4059531876276.805, "dur": 17.625,
+    "args": {
+      "Python parent id": 189, "Python id": 259, "Ev Idx": 260
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen os>(709): __getitem__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876279.197, "dur": 13.078,
+    "args": {
+      "Python parent id": 259, "Python id": 260, "Ev Idx": 261
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<frozen os>(791): encode", "pid": 11579, "tid": 11579,
+    "ts": 4059531876282.346, "dur": 4.064,
+    "args": {
+      "Python parent id": 260, "Python id": 261, "Ev Idx": 262
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876283.006, "dur": 0.177,
+    "args": {
+      "Python parent id": 261, "Python id": 262, "Ev Idx": 263
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method encode of str object at 0x71898d8e75f0>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876285.039, "dur": 1.156,
+    "args": {
+      "Python parent id": 261, "Python id": 263, "Ev Idx": 264
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_environment.py(1): is_fbcode", "pid": 11579, "tid": 11579,
+    "ts": 4059531876297.663, "dur": 0.314,
+    "args": {
+      "Python parent id": 189, "Python id": 264, "Ev Idx": 265
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(787): __init__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876305.749, "dur": 13.382,
+    "args": {
+      "Python parent id": 189, "Python id": 265, "Ev Idx": 266
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "typing.py(392): inner", "pid": 11579, "tid": 11579,
+    "ts": 4059531876310.582, "dur": 5.277,
+    "args": {
+      "Python parent id": 265, "Python id": 266, "Ev Idx": 267
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/jit/__init__.py(129): annotate", "pid": 11579, "tid": 11579,
+    "ts": 4059531876318.447, "dur": 0.214,
+    "args": {
+      "Python parent id": 265, "Python id": 267, "Ev Idx": 268
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(800): __enter__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876331.698, "dur": 67.198,
+    "args": {
+      "Python parent id": 189, "Python id": 268, "Ev Idx": 269
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1197): __call__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876337.672, "dur": 60.286,
+    "args": {
+      "Python parent id": 268, "Python id": 269, "Ev Idx": 270
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _record_function_enter_new of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x71898db63b10>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876338.945, "dur": 58.819,
+    "args": {
+      "Python parent id": 269, "Python id": 270, "Ev Idx": 271
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(853): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876408.244, "dur": 157.138,
+    "args": {
+      "Python parent id": 1, "Python id": 271, "Ev Idx": 272
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(867): stop", "pid": 11579, "tid": 11579,
+    "ts": 4059531876412.247, "dur": 153.135,
+    "args": {
+      "Python parent id": 271, "Python id": 272, "Ev Idx": 273
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(806): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876414.936, "dur": 96.203,
+    "args": {
+      "Python parent id": 272, "Python id": 273, "Ev Idx": 274
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_jit_internal.py(98): is_scripting", "pid": 11579, "tid": 11579,
+    "ts": 4059531876417.693, "dur": 0.295,
+    "args": {
+      "Python parent id": 273, "Python id": 274, "Ev Idx": 275
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1031): __call__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876423.985, "dur": 84.591,
+    "args": {
+      "Python parent id": 273, "Python id": 275, "Ev Idx": 276
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1081): _must_dispatch_in_python", "pid": 11579, "tid": 11579,
+    "ts": 4059531876425.362, "dur": 68.952,
+    "args": {
+      "Python parent id": 275, "Python id": 276, "Ev Idx": 277
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1784): tree_any", "pid": 11579, "tid": 11579,
+    "ts": 4059531876427.784, "dur": 66.016,
+    "args": {
+      "Python parent id": 276, "Python id": 277, "Ev Idx": 278
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function any>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876429.944, "dur": 63.493,
+    "args": {
+      "Python parent id": 277, "Python id": 278, "Ev Idx": 279
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876431.378, "dur": 30.008,
+    "args": {
+      "Python parent id": 278, "Python id": 279, "Ev Idx": 280
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876432.568, "dur": 6.938,
+    "args": {
+      "Python parent id": 279, "Python id": 280, "Ev Idx": 281
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876433.838, "dur": 4.978,
+    "args": {
+      "Python parent id": 280, "Python id": 281, "Ev Idx": 282
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876435.427, "dur": 3.145,
+    "args": {
+      "Python parent id": 281, "Python id": 282, "Ev Idx": 283
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876435.832, "dur": 0.190,
+    "args": {
+      "Python parent id": 282, "Python id": 283, "Ev Idx": 284
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876436.500, "dur": 0.167,
+    "args": {
+      "Python parent id": 282, "Python id": 284, "Ev Idx": 285
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876437.236, "dur": 0.366,
+    "args": {
+      "Python parent id": 282, "Python id": 285, "Ev Idx": 286
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876438.094, "dur": 0.302,
+    "args": {
+      "Python parent id": 282, "Python id": 286, "Ev Idx": 287
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876440.277, "dur": 2.983,
+    "args": {
+      "Python parent id": 279, "Python id": 287, "Ev Idx": 288
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876441.003, "dur": 2.089,
+    "args": {
+      "Python parent id": 287, "Python id": 288, "Ev Idx": 289
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876441.278, "dur": 0.106,
+    "args": {
+      "Python parent id": 288, "Python id": 289, "Ev Idx": 290
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876441.739, "dur": 0.159,
+    "args": {
+      "Python parent id": 288, "Python id": 290, "Ev Idx": 291
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876442.294, "dur": 0.146,
+    "args": {
+      "Python parent id": 288, "Python id": 291, "Ev Idx": 292
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876442.793, "dur": 0.184,
+    "args": {
+      "Python parent id": 288, "Python id": 292, "Ev Idx": 293
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(771): _tuple_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876445.030, "dur": 0.648,
+    "args": {
+      "Python parent id": 279, "Python id": 293, "Ev Idx": 294
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876447.215, "dur": 14.023,
+    "args": {
+      "Python parent id": 279, "Python id": 294, "Ev Idx": 295
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876447.890, "dur": 3.532,
+    "args": {
+      "Python parent id": 294, "Python id": 295, "Ev Idx": 296
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876448.469, "dur": 2.787,
+    "args": {
+      "Python parent id": 295, "Python id": 296, "Ev Idx": 297
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876449.135, "dur": 1.962,
+    "args": {
+      "Python parent id": 296, "Python id": 297, "Ev Idx": 298
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876449.408, "dur": 0.153,
+    "args": {
+      "Python parent id": 297, "Python id": 298, "Ev Idx": 299
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876449.846, "dur": 0.118,
+    "args": {
+      "Python parent id": 297, "Python id": 299, "Ev Idx": 300
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876450.347, "dur": 0.155,
+    "args": {
+      "Python parent id": 297, "Python id": 300, "Ev Idx": 301
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876450.846, "dur": 0.149,
+    "args": {
+      "Python parent id": 297, "Python id": 301, "Ev Idx": 302
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876452.012, "dur": 2.804,
+    "args": {
+      "Python parent id": 294, "Python id": 302, "Ev Idx": 303
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876452.684, "dur": 1.993,
+    "args": {
+      "Python parent id": 302, "Python id": 303, "Ev Idx": 304
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876452.937, "dur": 0.100,
+    "args": {
+      "Python parent id": 303, "Python id": 304, "Ev Idx": 305
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876453.389, "dur": 0.119,
+    "args": {
+      "Python parent id": 303, "Python id": 305, "Ev Idx": 306
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function getattr>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876453.871, "dur": 0.199,
+    "args": {
+      "Python parent id": 303, "Python id": 306, "Ev Idx": 307
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876454.415, "dur": 0.139,
+    "args": {
+      "Python parent id": 303, "Python id": 307, "Ev Idx": 308
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(771): _tuple_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876455.595, "dur": 0.379,
+    "args": {
+      "Python parent id": 294, "Python id": 308, "Ev Idx": 309
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876457.115, "dur": 4.002,
+    "args": {
+      "Python parent id": 294, "Python id": 309, "Ev Idx": 310
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876457.629, "dur": 3.228,
+    "args": {
+      "Python parent id": 309, "Python id": 310, "Ev Idx": 311
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876458.192, "dur": 2.426,
+    "args": {
+      "Python parent id": 310, "Python id": 311, "Ev Idx": 312
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876458.884, "dur": 1.487,
+    "args": {
+      "Python parent id": 311, "Python id": 312, "Ev Idx": 313
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876459.210, "dur": 0.237,
+    "args": {
+      "Python parent id": 312, "Python id": 313, "Ev Idx": 314
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876459.880, "dur": 0.368,
+    "args": {
+      "Python parent id": 312, "Python id": 314, "Ev Idx": 315
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/_ops.py(1083): <lambda>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876462.112, "dur": 12.906,
+    "args": {
+      "Python parent id": 278, "Python id": 315, "Ev Idx": 316
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876474.225, "dur": 0.707,
+    "args": {
+      "Python parent id": 315, "Python id": 316, "Ev Idx": 317
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1476): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876476.230, "dur": 16.713,
+    "args": {
+      "Python parent id": 278, "Python id": 317, "Ev Idx": 318
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1476): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876477.424, "dur": 1.620,
+    "args": {
+      "Python parent id": 317, "Python id": 318, "Ev Idx": 319
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1468): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876478.225, "dur": 0.152,
+    "args": {
+      "Python parent id": 318, "Python id": 319, "Ev Idx": 320
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1462): tree_iter", "pid": 11579, "tid": 11579,
+    "ts": 4059531876480.421, "dur": 12.199,
+    "args": {
+      "Python parent id": 317, "Python id": 320, "Ev Idx": 321
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1060): tree_is_leaf", "pid": 11579, "tid": 11579,
+    "ts": 4059531876480.948, "dur": 3.102,
+    "args": {
+      "Python parent id": 320, "Python id": 321, "Ev Idx": 322
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876481.492, "dur": 2.098,
+    "args": {
+      "Python parent id": 321, "Python id": 322, "Ev Idx": 323
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876482.320, "dur": 1.092,
+    "args": {
+      "Python parent id": 322, "Python id": 323, "Ev Idx": 324
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876482.635, "dur": 0.124,
+    "args": {
+      "Python parent id": 323, "Python id": 324, "Ev Idx": 325
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876483.060, "dur": 0.202,
+    "args": {
+      "Python parent id": 323, "Python id": 325, "Ev Idx": 326
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(1048): _get_node_type", "pid": 11579, "tid": 11579,
+    "ts": 4059531876484.656, "dur": 1.932,
+    "args": {
+      "Python parent id": 320, "Python id": 326, "Ev Idx": 327
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(694): is_namedtuple_class", "pid": 11579, "tid": 11579,
+    "ts": 4059531876485.622, "dur": 0.819,
+    "args": {
+      "Python parent id": 326, "Python id": 327, "Ev Idx": 328
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function isinstance>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876485.912, "dur": 0.079,
+    "args": {
+      "Python parent id": 327, "Python id": 328, "Ev Idx": 329
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function issubclass>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876486.248, "dur": 0.084,
+    "args": {
+      "Python parent id": 327, "Python id": 329, "Ev Idx": 330
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/utils/_pytree.py(801): _dict_flatten", "pid": 11579, "tid": 11579,
+    "ts": 4059531876488.238, "dur": 4.013,
+    "args": {
+      "Python parent id": 320, "Python id": 330, "Ev Idx": 331
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method values of dict object at 0x71898c625300>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876488.770, "dur": 0.760,
+    "args": {
+      "Python parent id": 330, "Python id": 331, "Ev Idx": 332
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method keys of dict object at 0x71898c625300>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876490.822, "dur": 0.752,
+    "args": {
+      "Python parent id": 330, "Python id": 332, "Ev Idx": 333
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method  of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x71898d7bbe50>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876495.665, "dur": 12.731,
+    "args": {
+      "Python parent id": 275, "Python id": 333, "Ev Idx": 334
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method __exit__ of torch._C.DisableTorchFunctionSubclass object at 0x718982a63f10>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876510.400, "dur": 0.438,
+    "args": {
+      "Python parent id": 273, "Python id": 334, "Ev Idx": 335
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(912): _transit_action", "pid": 11579, "tid": 11579,
+    "ts": 4059531876513.592, "dur": 51.790,
+    "args": {
+      "Python parent id": 272, "Python id": 335, "Ev Idx": 336
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method get of dict object at 0x71898c5ea100>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876514.480, "dur": 4.334,
+    "args": {
+      "Python parent id": 335, "Python id": 336, "Ev Idx": 337
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "enum.py(1266): __hash__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876515.849, "dur": 1.292,
+    "args": {
+      "Python parent id": 336, "Python id": 337, "Ev Idx": 338
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function hash>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876516.645, "dur": 0.335,
+    "args": {
+      "Python parent id": 337, "Python id": 338, "Ev Idx": 339
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/profiler/profiler.py(271): stop_trace", "pid": 11579, "tid": 11579,
+    "ts": 4059531876522.997, "dur": 42.385,
+    "args": {
+      "Python parent id": 335, "Python id": 339, "Ev Idx": 340
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "torch/autograd/profiler.py(386): __exit__", "pid": 11579, "tid": 11579,
+    "ts": 4059531876530.372, "dur": 35.010,
+    "args": {
+      "Python parent id": 339, "Python id": 340, "Ev Idx": 341
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in function perf_counter_ns>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876545.143, "dur": 2.478,
+    "args": {
+      "Python parent id": 340, "Python id": 341, "Ev Idx": 342
+    }
+  },
+  {
+    "ph": "X", "cat": "python_function", "name": "<built-in method _disable_profiler of pybind11_builtins.pybind11_detail_function_record_v1_system_libstdcpp_gxx_abi_1xxx_use_cxx11_abi_1 object at 0x718994d07b30>", "pid": 11579, "tid": 11579,
+    "ts": 4059531876554.980, "dur": 10.402,
+    "args": {
+      "Python parent id": 340, "Python id": 342, "Ev Idx": 343
+    }
+  },
+  {
+    "name": "process_name", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 0,
+    "args": {
+      "name": "python"
+    }
+  },
+  {
+    "name": "process_labels", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 0,
+    "args": {
+      "labels": "CPU"
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 0,
+    "args": {
+      "sort_index": 11579
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 11579,
+    "args": {
+      "name": "thread 11579 (python)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 11579,
+    "args": {
+      "sort_index": 11579
+    }
+  },
+  {
+    "name": "thread_name", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 11579,
+    "args": {
+      "name": "thread 11579 (python)"
+    }
+  },
+  {
+    "name": "thread_sort_index", "ph": "M", "ts": 4059528897251.061, "pid": 11579, "tid": 11579,
+    "args": {
+      "sort_index": 11579
+    }
+  },
+  {
+    "ph": "X", "cat": "Trace", "ts": 4059528897158.050, "dur": 2979407.332,
+    "pid": "Spans", "tid": "PyTorch Profiler",
+    "name": "PyTorch Profiler (0)",
+    "args": {
+      "Op count": 0
+    }
+  },
+  {
+    "name": "process_sort_index", "ph": "M", "ts": 4059528897158.050,
+    "pid": "Spans", "tid": 0,
+    "args": {
+      "sort_index": 536870912
+    }
+  },
+  {
+    "name": "Iteration Start: PyTorch Profiler", "ph": "i", "s": "g",
+    "pid": "Traces", "tid": "Trace PyTorch Profiler", "ts": 4059528897158.050
+  },
+  {
+    "name": "Record Window End", "ph": "i", "s": "g",
+    "pid": "", "tid": "", "ts": 4059531877597.755
+  }
+  ],
+  "traceName": "./log/yolov8l/instance-20260208-214153_11579.1771248843878956812.pt.trace.json"
+}

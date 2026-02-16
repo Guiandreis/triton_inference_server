@@ -18,8 +18,6 @@ class InferenceClass:
             url: Triton server URL (format: host:port). 
             model_name: Name of the model in Triton
         """
-        
-        
         self.client = grpcclient.InferenceServerClient(url=url, verbose=False)
         self.model_name = model_name
         
@@ -28,7 +26,24 @@ class InferenceClass:
         
         if not self.client.is_model_ready(model_name):
             raise ConnectionError(f"Model '{model_name}' is not ready")
+    
+    def _preprocess_image(self, image: np.ndarray) -> np.ndarray:
+        """
+        Preprocess a single image for inference.
+        
+        Args:
+            image: Input image as numpy array (BGR format from OpenCV)
             
+        Returns:
+            Preprocessed image as numpy array with shape [1, 3, 640, 640], FP32
+        """
+        resized = cv2.resize(image, (640, 640))
+        rgb = cv2.cvtColor(resized, cv2.COLOR_BGR2RGB)
+        normalized = rgb.astype(np.float32) / 255.0
+        transposed = np.transpose(normalized, (2, 0, 1))
+        batch_input = np.expand_dims(transposed, axis=0)
+        return batch_input    
+        
     def infer(self, image: np.ndarray) -> Dict[str, Any]:
         """
         Perform inference on an image.
@@ -43,7 +58,6 @@ class InferenceClass:
                 - output0: numpy array with shape [1, 8400, 84] containing detections
         """
         batch_input = self._preprocess_image(image)
-        
         input_tensor = grpcclient.InferInput(
             "images",
             batch_input.shape,
@@ -54,9 +68,7 @@ class InferenceClass:
         output = grpcclient.InferRequestedOutput("output0")
         
         response = self.client.infer(
-            model_name=self.model_name,
-            inputs=[input_tensor],
-            outputs=[output]
+            model_name=self.model_name, inputs=[input_tensor],outputs=[output]
         )
         output_array = response.as_numpy("output0")
         
@@ -68,18 +80,21 @@ class InferenceClass:
 if __name__ == "__main__":
     url = os.getenv('TRITON_URL', default ='localhost:8001')
     model_name = os.getenv("YOLO_MODEL_NAME", default ="yolo11l")
-    input_file = os.getenv("INPUT_FILE", default ="test_data/traffic_video.mp4")
+    input_file = os.getenv("INPUT_FILE", default ="examples/test_data/car.jpg")
     inference_client = InferenceClass(url, model_name)
-
+    import time
     if input_file.endswith(".mp4"):
-        cap = cv2.VideoCapture(input_file)
+        vidcap = cv2.VideoCapture(input_file)
         while True:
-            ret, frame = cap.read()
+            ret, frame = vidcap.read()
             if not ret:
                 break
             result = inference_client.infer(frame)
             print('output',result)
     else:
+        start_time = time.time()
         image = cv2.imread(input_file)
         result = inference_client.infer(image)
+        end_time = time.time()
+        print('time', end_time - start_time)
         print('output',result)
